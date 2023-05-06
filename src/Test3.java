@@ -9,7 +9,7 @@ public class Test3 {
         int[] firstArray = getFilledArray(10);
         int[] secondArray = getFilledArray(10);
 
-        int[] divArray = divArrays(firstArray, sec ondArray);
+        int[] divArray = divArrays(firstArray, secondArray);
         printArray(divArray);
 
         int[] badArray = divArrays(null, secondArray);
